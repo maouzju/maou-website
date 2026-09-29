@@ -7,7 +7,7 @@ maou 的个人主页。零依赖 Node 服务器 + 纯静态前端，实时拉取
 需要 Node 20+。
 
 ```bash
-npm start          # http://127.0.0.1:5173
+npm start          # http://127.0.0.1:5180（被占用会自动顺延）
 npm run snapshot   # 刷新 public/data/*.json 快照
 ```
 

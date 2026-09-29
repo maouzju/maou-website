@@ -11,54 +11,55 @@
 </head>
 <body>
   <header class="top">
+    <button class="lang" id="lang" type="button">EN</button>
     <h1>maou</h1>
-    <p>做游戏的人。前《月圆之夜》主策划（2018–2025），现在在上海松江创业。</p>
+    <p data-i18n="intro">做游戏的人。前《月圆之夜》主策划（2018–2025），现在在上海松江创业。</p>
     <p class="links">
       <a href="https://store.steampowered.com/developer/maou" target="_blank" rel="noopener">Steam</a>
       <a href="https://maougame.itch.io" target="_blank" rel="noopener">itch</a>
       <a href="https://github.com/maouzju" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://space.bilibili.com/1791573" target="_blank" rel="noopener">B站</a>
+      <a href="https://space.bilibili.com/1791573" target="_blank" rel="noopener" data-i18n="bilibili">B站</a>
       <span id="wechat"></span>
     </p>
   </header>
 
   <main>
     <section>
-      <h2>游戏</h2>
+      <h2 data-i18n="games">游戏</h2>
       <ul class="works" id="games">
         <li class="work">
           <a class="work__img" href="https://store.steampowered.com/app/769560" target="_blank" rel="noopener" tabindex="-1"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/769560/header.jpg" alt="" width="460" height="215" loading="lazy" referrerpolicy="no-referrer"></a>
           <div>
-            <h3><a href="https://store.steampowered.com/app/769560" target="_blank" rel="noopener">月圆之夜</a> <small>主策划 · 2018–2025</small></h3>
-            <p>以小红帽为背景的 roguelike 卡牌冒险。</p>
+            <h3><a href="https://store.steampowered.com/app/769560" target="_blank" rel="noopener" data-i18n="moon">月圆之夜</a> <small data-i18n="moonRole">主策划 · 2018–2025</small></h3>
+            <p data-i18n="moonDesc">以小红帽为背景的 roguelike 卡牌冒险。</p>
           </div>
         </li>
       </ul>
     </section>
 
     <section>
-      <h2>旧作</h2>
+      <h2 data-i18n="archive">旧作</h2>
       <ul class="grid">
-        <li><a href="https://maougame.itch.io/kubition" target="_blank" rel="noopener"><img src="assets/archive/kubition.jpg" alt="" loading="lazy">超苦逼冒险者</a></li>
-        <li><a href="http://cav.maougame.com" target="_blank" rel="noopener"><img src="assets/archive/cav1.png" alt="" loading="lazy">卡牌冒险者</a></li>
-        <li><a href="http://cav2.maougame.com" target="_blank" rel="noopener"><img src="assets/archive/cav2.png" alt="" loading="lazy">卡牌冒险者 续</a></li>
-        <li><a href="http://ta.maougame.com" target="_blank" rel="noopener"><img src="assets/archive/ta.png" alt="" loading="lazy">地下探险队</a></li>
+        <li><a href="https://maougame.itch.io/kubition" target="_blank" rel="noopener"><img src="assets/archive/kubition.jpg" alt="" loading="lazy"><span data-i18n="kubition">超苦逼冒险者</span></a></li>
+        <li><a href="http://cav.maougame.com" target="_blank" rel="noopener"><img src="assets/archive/cav1.png" alt="" loading="lazy"><span data-i18n="cav1">卡牌冒险者</span></a></li>
+        <li><a href="http://cav2.maougame.com" target="_blank" rel="noopener"><img src="assets/archive/cav2.png" alt="" loading="lazy"><span data-i18n="cav2">卡牌冒险者 续</span></a></li>
+        <li><a href="http://ta.maougame.com" target="_blank" rel="noopener"><img src="assets/archive/ta.png" alt="" loading="lazy"><span data-i18n="ta">地下探险队</span></a></li>
       </ul>
-      <p class="more"><a href="https://maougame.itch.io" target="_blank" rel="noopener">更多小游戏在 itch →</a></p>
+      <p class="more"><a href="https://maougame.itch.io" target="_blank" rel="noopener" data-i18n="moreItch">更多小游戏在 itch →</a></p>
     </section>
 
     <section>
-      <h2>软件</h2>
+      <h2 data-i18n="software">软件</h2>
       <ul class="plain">
-        <li><a href="https://github.com/maouzju/chill-vibe-IDE" target="_blank" rel="noopener">Chill Vibe</a> — 多个 AI 编码工作区并排放的轻量 IDE。</li>
-        <li><a href="https://github.com/maouzju/playlist-wall" target="_blank" rel="noopener">歌单墙</a> — 把网易云歌单铺成一面可拖拽的墙。</li>
+        <li><a href="https://github.com/maouzju/chill-vibe-IDE" target="_blank" rel="noopener">Chill Vibe</a><span data-i18n="chillVibe"> — 多个 AI 编码工作区并排放的轻量 IDE。</span></li>
+        <li><a href="https://github.com/maouzju/playlist-wall" target="_blank" rel="noopener" data-i18n="playlist">歌单墙</a><span data-i18n="playlistDesc"> — 把网易云歌单铺成一面可拖拽的墙。</span></li>
       </ul>
     </section>
 
     <section>
-      <h2>文章</h2>
+      <h2 data-i18n="posts">文章</h2>
       <ul class="posts" id="posts"></ul>
-      <p class="more"><a href="https://space.bilibili.com/1791573/article" target="_blank" rel="noopener">全部文章 →</a></p>
+      <p class="more"><a href="https://space.bilibili.com/1791573/article" target="_blank" rel="noopener" data-i18n="allPosts">全部文章 →</a></p>
     </section>
   </main>
 

@@ -1,4 +1,5 @@
 import { CONFIG } from './config.js';
+import { onLang, t } from './i18n.js';
 import { $, esc, fmtDate, imgUrl, loadSource, safeUrl } from './util.js';
 
 const year = (g) => /\d{4}/.exec(g.releaseISO || g.releaseDate || '')?.[0] || '';
@@ -6,12 +7,13 @@ const year = (g) => /\d{4}/.exec(g.releaseISO || g.releaseDate || '')?.[0] || ''
 function renderSteam({ data }) {
   const rows = (data.items || []).map((g) => {
     const url = safeUrl(g.url);
-    const note = g.comingSoon ? '即将推出' : g.demoOnly ? 'Demo' : year(g);
+    const note = g.comingSoon ? t('即将推出', 'Coming soon') : g.demoOnly ? 'Demo' : year(g);
+    const short = t(g.short, g.shortEn || g.short);
     return `<li class="work" data-steam>
-      <a class="work__img" href="${url}" target="_blank" rel="noopener" tabindex="-1"><img src="${imgUrl(g.header)}" alt="" loading="lazy" referrerpolicy="no-referrer"></a>
+      <a class="work__img" href="${url}" target="_blank" rel="noopener" tabindex="-1"><img src="${imgUrl(t(g.header, g.headerEn || g.header))}" alt="" loading="lazy" referrerpolicy="no-referrer"></a>
       <div>
-        <h3><a href="${url}" target="_blank" rel="noopener">${esc(g.name)}</a> <small>${esc(note)}</small></h3>
-        ${g.short ? `<p>${esc(g.short)}</p>` : ''}
+        <h3><a href="${url}" target="_blank" rel="noopener">${esc(t(g.name, g.nameEn || g.name))}</a> <small>${esc(note)}</small></h3>
+        ${short ? `<p>${esc(short)}</p>` : ''}
       </div>
     </li>`;
   });
@@ -26,9 +28,17 @@ function renderPosts({ data }) {
   </li>`).join('');
 }
 
-loadSource('steam', renderSteam).catch(() => {});
+let steam = null;
+loadSource('steam', (envelope) => renderSteam((steam = envelope))).catch(() => {});
 loadSource('bilibili', renderPosts).catch(() => {});
 
-const { name } = CONFIG.wechat;
-if (name) $('#wechat').textContent = `公众号 ${name}`;
+function renderWechat() {
+  const { name } = CONFIG.wechat;
+  if (name) $('#wechat').textContent = `${t('公众号', 'WeChat:')} ${name}`;
+}
+renderWechat();
+onLang(() => {
+  renderWechat();
+  if (steam) renderSteam(steam);
+});
 $('#year').textContent = String(new Date().getFullYear());

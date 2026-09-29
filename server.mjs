@@ -1,3 +1,4 @@
+import { spawn } from 'node:child_process';
 import { readFile, stat } from 'node:fs/promises';
 import http from 'node:http';
 import path from 'node:path';
@@ -7,7 +8,10 @@ import { createSources } from './lib/sources.mjs';
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const PUBLIC = path.join(ROOT, 'public');
-const PORT = Number(process.env.PORT) || 5173;
+// 没指定 PORT 时从 5180 起找空闲端口，避免和 vite 等常用 5173 的开发服务撞车
+const FIXED_PORT = Boolean(process.env.PORT);
+const PORT_LIMIT = 5199;
+let port = Number(process.env.PORT) || 5180;
 const HOST = process.env.HOST || '127.0.0.1';
 
 const MIME = {
@@ -121,12 +125,26 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
+function openBrowser(url) {
+  const [cmd, args] = process.platform === 'win32' ? ['cmd', ['/c', 'start', '', url]]
+    : process.platform === 'darwin' ? ['open', [url]] : ['xdg-open', [url]];
+  spawn(cmd, args, { detached: true, stdio: 'ignore' }).on('error', () => {}).unref();
+}
+
 server.on('error', (error) => {
-  console.error(error.code === 'EADDRINUSE' ? `端口 ${PORT} 已被占用，可用 PORT=xxxx 换一个` : error);
+  if (error.code === 'EADDRINUSE' && !FIXED_PORT && port < PORT_LIMIT) {
+    server.listen(++port, HOST);
+    return;
+  }
+  console.error(error.code === 'EADDRINUSE' ? `端口 ${port} 已被占用，可用 PORT=xxxx 换一个` : error);
   process.exit(1);
 });
 
-server.listen(PORT, HOST, () => {
-  console.log(`maou-website  http://${HOST}:${PORT}`);
+server.once('listening', () => {
+  const url = `http://${HOST}:${port}`;
+  console.log(`maou-website  ${url}`);
+  if (process.env.OPEN_BROWSER) openBrowser(url);
   for (const source of Object.values(sources)) source.get().catch(() => {});
 });
+
+server.listen(port, HOST);

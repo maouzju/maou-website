@@ -1,10 +1,18 @@
 {
-  "updatedAt": "2026-09-29T14:50:56.767Z",
+  "updatedAt": "2026-09-29T15:42:15.881Z",
   "data": {
     "user": "maouzju",
     "profileUrl": "https://github.com/maouzju",
     "source": "api",
     "repos": [
+      {
+        "name": "maou-website",
+        "description": "maou 的个人主页：Steam / itch / GitHub / B站数据实时同步",
+        "stars": 0,
+        "language": "JavaScript",
+        "pushedAt": "2026-09-29T15:27:19Z",
+        "url": "https://github.com/maouzju/maou-website"
+      },
       {
         "name": "chill-vibe-IDE",
         "description": "Lightweight local AI IDE for running multiple Codex and Claude workspaces side-by-side.",

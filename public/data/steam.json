@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T14:50:58.176Z",
+  "updatedAt": "2026-09-29T15:33:55.870Z",
   "data": {
     "developer": "maou",
     "profileUrl": "https://store.steampowered.com/developer/maou",
@@ -10,6 +10,7 @@
         "name": "建与远征",
         "nameEn": "An Architect's Adventure",
         "short": "一个建造并探索岛屿的3D推箱子游戏。",
+        "shortEn": "A simple 3A puzzle game.",
         "releaseDate": "2023 年 3 月 25 日",
         "releaseISO": "2023-03-25",
         "comingSoon": false,
@@ -27,6 +28,7 @@
           "maou"
         ],
         "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1747510/header_schinese.jpg?t=1682941531",
+        "headerEn": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1747510/header.jpg?t=1682941531",
         "shots": [
           "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1747510/ss_a5c445e14ac1637cfb7b5c88ac554d6b15fde329.1920x1080.jpg?t=1682941531",
           "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1747510/ss_278286f7e1ff6fab76237b6cc82573b9b4ce43be.1920x1080.jpg?t=1682941531",
@@ -46,6 +48,7 @@
         "name": "INSIGHT 洞察",
         "nameEn": "Insight",
         "short": "猜规则、划分形状、解谜。 具有一致规则集的 49 个变体。",
+        "shortEn": "Guess the rules, divide shapes, solve puzzles. 49 variants with consistent rulessets.",
         "releaseDate": "2021 年 10 月 6 日",
         "releaseISO": "2021-10-06",
         "comingSoon": false,
@@ -63,6 +66,7 @@
           "maou"
         ],
         "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1602980/header.jpg?t=1682789411",
+        "headerEn": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1602980/header.jpg?t=1682789411",
         "shots": [
           "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1602980/ss_ad939ea276fcb83baf885d77ee331bfb70f7665b.1920x1080.jpg?t=1682789411",
           "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1602980/ss_db712dde652962aa1173eb55f42389e776cbc7e3.1920x1080.jpg?t=1682789411",
@@ -82,6 +86,7 @@
         "name": "数字大军",
         "nameEn": "Army of Numbers",
         "short": "一个算数游戏，让你在游玩的同时锻炼算数反应能力。 只需把运算符号放在两个数字的下方，就能算出结果。 你需要根据场面快速地、巧妙地摆放运算符号。",
+        "shortEn": "A arithmetic game, let you play at the same time exercise arithmetic reaction ability. Just put the arithmetic symbol under the two numbers to calculate the result. You need to quickly and cleverly place the arithmetic symbols according to the scene.",
         "releaseDate": "2021 年 6 月 22 日",
         "releaseISO": "2021-06-22",
         "comingSoon": false,
@@ -99,6 +104,7 @@
           "maou"
         ],
         "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1454090/header.jpg?t=1637072617",
+        "headerEn": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1454090/header.jpg?t=1637072617",
         "shots": [
           "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1454090/ss_d25eb44cd7809182a729fe62598375a1a7d1f103.1920x1080.jpg?t=1637072617",
           "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1454090/ss_84e6d252d6350d1259bfe1d7b5aa8b6a58b17f5d.1920x1080.jpg?t=1637072617",
@@ -120,6 +126,7 @@
         "name": "月圆之夜",
         "nameEn": "月圆之夜 (Night of Full Moon)",
         "short": "《月圆之夜》是一款以童话故事“小红帽”为背景的卡牌策略游戏。在游戏中为用户提供了多种类型的游戏模式。既有以小红帽为主人公的roguelike集换式卡牌冒险主线剧情模式，也有以选取阵营自由组合搭配的自走棋模式并随之衍生的联机版本——镜中记忆&镜中对决。还有别具一格的探索型卡牌构筑玩法模式——愿望之夜。为卡牌游戏爱好者提供了丰富的游戏体验。",
+        "shortEn": "\"Night of the Full Moon\" is a stand-alone roguelike card game. Take adventure into Black Forest. Random event, random plot leads to different endings.",
         "releaseDate": "2019 年 7 月 25 日",
         "releaseISO": "2019-07-25",
         "comingSoon": false,
@@ -139,6 +146,7 @@
           "Giant Games"
         ],
         "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/769560/7c90431ea058401fe9276cc23954a5e39ae699f2/header_schinese.jpg?t=1789547381",
+        "headerEn": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/769560/274bad576481bd4d456ca953c3fbc68af9c080ea/header.jpg?t=1789547381",
         "shots": [
           "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/769560/ss_fdacafd3d1fd8416551dc8b83bbd99b5cbd017c9.1920x1080.jpg?t=1789547381",
           "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/769560/ss_daefdf9c65d7f9f672db0b39f598bc2d001413b4.1920x1080.jpg?t=1789547381",
