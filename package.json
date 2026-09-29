@@ -1,0 +1,16 @@
+{
+  "name": "maou-website",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "description": "maou 的个人主页：Steam / itch / GitHub / B站数据实时同步",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs",
+    "snapshot": "node scripts/snapshot.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

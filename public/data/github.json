@@ -1,0 +1,48 @@
+{
+  "updatedAt": "2026-09-29T14:50:56.767Z",
+  "data": {
+    "user": "maouzju",
+    "profileUrl": "https://github.com/maouzju",
+    "source": "api",
+    "repos": [
+      {
+        "name": "chill-vibe-IDE",
+        "description": "Lightweight local AI IDE for running multiple Codex and Claude workspaces side-by-side.",
+        "stars": 8,
+        "language": "TypeScript",
+        "pushedAt": "2026-09-29T11:17:20Z",
+        "url": "https://github.com/maouzju/chill-vibe-IDE",
+        "version": "v0.21.0",
+        "releaseUrl": "https://github.com/maouzju/chill-vibe-IDE/releases/tag/v0.21.0"
+      },
+      {
+        "name": "playlist-wall",
+        "description": "Turn your NetEase Cloud Music playlists into a searchable, draggable wall for faster browsing and cleanup.",
+        "stars": 3,
+        "language": "JavaScript",
+        "pushedAt": "2026-09-28T05:32:46Z",
+        "url": "https://github.com/maouzju/playlist-wall",
+        "version": "v0.23.12",
+        "releaseUrl": "https://github.com/maouzju/playlist-wall/releases/tag/v0.23.12"
+      },
+      {
+        "name": "plunger",
+        "description": "🪠 零配置弹性代理，为 Claude Code / Codex CLI / Cursor 提供自动断线恢复，特别适用于 API 中转站断连场景",
+        "stars": 1,
+        "language": "Python",
+        "pushedAt": "2026-04-04T06:19:14Z",
+        "url": "https://github.com/maouzju/plunger",
+        "version": "v0.2.0",
+        "releaseUrl": "https://github.com/maouzju/plunger/releases/tag/v0.2.0"
+      },
+      {
+        "name": "kubition",
+        "description": "",
+        "stars": 0,
+        "language": "JavaScript",
+        "pushedAt": "2026-01-15T15:12:00Z",
+        "url": "https://github.com/maouzju/kubition"
+      }
+    ]
+  }
+}

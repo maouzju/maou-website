@@ -1,0 +1,202 @@
+{
+  "updatedAt": "2026-09-29T14:50:56.417Z",
+  "data": {
+    "user": "maougame",
+    "profileUrl": "https://maougame.itch.io",
+    "total": 24,
+    "items": [
+      {
+        "id": "3224288",
+        "url": "https://maougame.itch.io/kubition",
+        "title": "超苦逼冒险者",
+        "thumb": null,
+        "genre": "",
+        "web": true
+      },
+      {
+        "id": "2210844",
+        "url": "https://maougame.itch.io/eyeballs",
+        "title": "Eyeball's Expedition Earlyversion",
+        "thumb": "https://img.itch.zone/aW1nLzEzMDc0OTMwLnBuZw==/315x250%23c/%2FZaeUL.png",
+        "genre": "Puzzle",
+        "web": true
+      },
+      {
+        "id": "1606079",
+        "url": "https://maougame.itch.io/caged-rabbits",
+        "title": "Caged Rabbits",
+        "thumb": "https://img.itch.zone/aW1nLzkzOTc3NTIucG5n/315x250%23c/V2pmne.png",
+        "genre": "Puzzle",
+        "web": true
+      },
+      {
+        "id": "1306802",
+        "url": "https://maougame.itch.io/smash-the-spire",
+        "title": "Smash the spire 杀破尖塔",
+        "thumb": "https://img.itch.zone/aW1nLzc2MDIwMDUucG5n/315x250%23c/nPBRzH.png",
+        "genre": "Card Game",
+        "web": false
+      },
+      {
+        "id": "1289460",
+        "url": "https://maougame.itch.io/wall-builder",
+        "title": "Wall Builder",
+        "thumb": "https://img.itch.zone/aW1nLzc1MDIyNzkucG5n/315x250%23c/H1xb0A.png",
+        "genre": "Puzzle",
+        "web": true
+      },
+      {
+        "id": "1262475",
+        "url": "https://maougame.itch.io/suicide-curse",
+        "title": "Suicide Curse",
+        "thumb": "https://img.itch.zone/aW1nLzczNTYzMjkucG5n/315x250%23c/OpVB3b.png",
+        "genre": "Puzzle",
+        "web": true
+      },
+      {
+        "id": "1241336",
+        "url": "https://maougame.itch.io/yet-another-puzzlescript-prototype-switch",
+        "title": "Yet Another PuzzleScript Prototype: Switch",
+        "thumb": "https://img.itch.zone/aW1nLzcyMzU3OTgucG5n/315x250%23c/d2LYOx.png",
+        "genre": "Puzzle",
+        "web": true
+      },
+      {
+        "id": "1241285",
+        "url": "https://maougame.itch.io/growing-slime",
+        "title": "Growing Slime",
+        "thumb": "https://img.itch.zone/aW1nLzcyMzUzMjIucG5n/315x250%23c/GIoKdP.png",
+        "genre": "Puzzle",
+        "web": true
+      },
+      {
+        "id": "1241177",
+        "url": "https://maougame.itch.io/statues",
+        "title": "Statues",
+        "thumb": "https://img.itch.zone/aW1nLzcyMzQ4NzQucG5n/315x250%23c/03Oerj.png",
+        "genre": "Puzzle",
+        "web": true
+      },
+      {
+        "id": "1241152",
+        "url": "https://maougame.itch.io/recoil",
+        "title": "Recoil",
+        "thumb": "https://img.itch.zone/aW1nLzcyMzQ2OTUucG5n/315x250%23c/vOFpHr.png",
+        "genre": "Puzzle",
+        "web": true
+      },
+      {
+        "id": "1238520",
+        "url": "https://maougame.itch.io/grilling-fish",
+        "title": "Grilling fish",
+        "thumb": "https://img.itch.zone/aW1nLzcyMTk5OTQucG5n/315x250%23c/3j%2FepL.png",
+        "genre": "Puzzle",
+        "web": true
+      },
+      {
+        "id": "1229345",
+        "url": "https://maougame.itch.io/robots-expedition",
+        "title": "Robot's Expedition",
+        "thumb": "https://img.itch.zone/aW1nLzcxNjgzOTMucG5n/315x250%23c/TR5sY1.png",
+        "genre": "Puzzle",
+        "web": true
+      },
+      {
+        "id": "1172878",
+        "url": "https://maougame.itch.io/cleaner-simulator",
+        "title": "Cleaner Simulator",
+        "thumb": "https://img.itch.zone/aW1nLzY4MjkwMDAucG5n/315x250%23c/QyL0l0.png",
+        "genre": "Puzzle",
+        "web": true
+      },
+      {
+        "id": "1171975",
+        "url": "https://maougame.itch.io/yet-another-pipe-pusher",
+        "title": "Yet Another Pipe Pusher",
+        "thumb": "https://img.itch.zone/aW1nLzY4MjMzMTYucG5n/315x250%23c/gmpR%2BR.png",
+        "genre": "Puzzle",
+        "web": true
+      },
+      {
+        "id": "1171870",
+        "url": "https://maougame.itch.io/golems-expedition",
+        "title": "Golem's Expedition",
+        "thumb": "https://img.itch.zone/aW1nLzY4MzYzNzkucG5n/315x250%23c/3naOFY.png",
+        "genre": "Puzzle",
+        "web": true
+      },
+      {
+        "id": "1171694",
+        "url": "https://maougame.itch.io/sun-and-moon",
+        "title": "Sun and Moon",
+        "thumb": "https://img.itch.zone/aW1nLzY4MjE0MTcucG5n/315x250%23c/8aBHs9.png",
+        "genre": "Puzzle",
+        "web": true
+      },
+      {
+        "id": "1170955",
+        "url": "https://maougame.itch.io/stephens-deadly-rooms-of-death",
+        "title": "Stephen's Deadly Rooms of Death",
+        "thumb": "https://img.itch.zone/aW1nLzY4MTY2OTMucG5n/315x250%23c/nfTcUo.png",
+        "genre": "Puzzle",
+        "web": true
+      },
+      {
+        "id": "1166138",
+        "url": "https://maougame.itch.io/sit-down-please",
+        "title": "Sit Down, Please",
+        "thumb": "https://img.itch.zone/aW1nLzY3ODUyOTUucG5n/315x250%23c/PIf8Nf.png",
+        "genre": "Puzzle",
+        "web": true
+      },
+      {
+        "id": "1134370",
+        "url": "https://maougame.itch.io/space-to-switch",
+        "title": "Space to Switch",
+        "thumb": "https://img.itch.zone/aW1nLzY1NzUyMDQucG5n/315x250%23c/JWwXfV.png",
+        "genre": "Action",
+        "web": true
+      },
+      {
+        "id": "974600",
+        "url": "https://maougame.itch.io/circle-rush",
+        "title": "瑟扣打卡记",
+        "thumb": "https://img.itch.zone/aW1nLzU1MzUwNzkucG5n/315x250%23c/lMDciz.png",
+        "genre": "Shooter",
+        "web": true
+      },
+      {
+        "id": "940028",
+        "url": "https://maougame.itch.io/catching-bullets",
+        "title": "Catching Bullets",
+        "thumb": "https://img.itch.zone/aW1nLzUzMjU1MjEucG5n/315x250%23c/CfJprg.png",
+        "genre": "Puzzle",
+        "web": true
+      },
+      {
+        "id": "938126",
+        "url": "https://maougame.itch.io/reverse-mission",
+        "title": "The Reverse Mission",
+        "thumb": "https://img.itch.zone/aW1nLzUzMTUyMjQucG5n/315x250%23c/Q2yImX.png",
+        "genre": "Puzzle",
+        "web": false
+      },
+      {
+        "id": "930024",
+        "url": "https://maougame.itch.io/ghost-shape",
+        "title": "Ghost Shape",
+        "thumb": "https://img.itch.zone/aW1nLzUyNzE5OTUucG5n/315x250%23c/JRr1xo.png",
+        "genre": "Puzzle",
+        "web": true
+      },
+      {
+        "id": "923878",
+        "url": "https://maougame.itch.io/calculator-army",
+        "title": "Calculator Army",
+        "thumb": "https://img.itch.zone/aW1nLzUyMjQ2MjkucG5n/315x250%23c/yjQO6E.png",
+        "genre": "Card Game",
+        "web": true
+      }
+    ]
+  }
+}
